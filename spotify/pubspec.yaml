@@ -28,7 +28,7 @@ flutter:
 assets:
     - assets/fonts/
     - assets/images/
-     - assets/vectors/
+    - assets/vectors/
 fonts:
   - family: Satoshi
     fonts:

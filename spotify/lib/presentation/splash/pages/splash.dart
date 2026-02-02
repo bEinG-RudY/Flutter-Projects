@@ -8,7 +8,9 @@ class SplashPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(child: SvgPicture.asset(AppVectors.logo)),
+      body: Center(
+          child: Text(
+              "data source value 8 is obsolete and will be removed in a future release")),
     );
   }
 }
