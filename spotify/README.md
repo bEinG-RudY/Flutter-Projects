@@ -1,16 +1,24 @@
-# spotify
+# 🎵 Spotify Clone (Flutter + BLoC)
 
-A new Flutter project.
+A **Spotify-inspired Flutter application** built using **BLoC state management**, with focus on UI design, clean architecture, and scalable app structure.
 
-## Getting Started
+> This project currently implements UI screens and state management architecture. Features like real music streaming via Spotify API are planned, and the app uses mock/dummy data for now.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Features
+- 📱 Spotify-like UI & layout
+- 🧠 BLoC pattern for state management
+- 🎨 Clean and modular widget architecture
+- 🔁 Reusable components for common UI patterns
+- 📐 Prepared for API integration and feature extension
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack
+- 🧪 Flutter & Dart
+- 📊 BLoC (`flutter_bloc`) for state management
+- 💡 Clean architecture principles
+- 💻 Git & GitHub for version control
+
+
