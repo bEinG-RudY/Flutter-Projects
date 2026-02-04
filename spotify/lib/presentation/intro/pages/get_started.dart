@@ -18,7 +18,7 @@ class GetStartedPage extends StatelessWidget {
             // padding: const EdgeInsets.symmetric(vertical: 40, horizontal: 40),
             decoration: const BoxDecoration(
               image: DecorationImage(
-                fit: BoxFit.cover,
+                fit: BoxFit.fill,
                 image: AssetImage(AppImages.introBG),
               ),
             ),
