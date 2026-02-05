@@ -124,11 +124,11 @@ class ChooseModePage extends StatelessWidget {
                 ),
                 BasicAppButton(
                     onPressed: () {
-                      // Navigator.push(
-                      //     context,
-                      //     MaterialPageRoute(
-                      //         builder: (BuildContext context) =>
-                      //             const ChooseModePage()));
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (BuildContext context) =>
+                                  const ChooseModePage()));
                     },
                     title: "Continue")
               ],
