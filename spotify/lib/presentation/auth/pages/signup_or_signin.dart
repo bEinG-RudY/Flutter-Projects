@@ -71,14 +71,17 @@ class SignupOrSigninPage extends StatelessWidget {
                       SizedBox(
                         width: 20,
                       ),
-                      TextButton(
-                        onPressed: () {},
-                        child: Text(
-                          "Sign in",
-                          style: TextStyle(
-                              fontWeight: FontWeight.bold,
-                              fontSize: 16,
-                              color: Colors.white),
+                      Expanded(
+                        flex: 1,
+                        child: TextButton(
+                          onPressed: () {},
+                          child: Text(
+                            "Sign in",
+                            style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 16,
+                                color: Colors.white),
+                          ),
                         ),
                       ),
                     ],
