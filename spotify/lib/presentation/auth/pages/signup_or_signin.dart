@@ -26,11 +26,18 @@ class SignupOrSigninPage extends StatelessWidget {
           Align(
             alignment: Alignment.center,
             child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 SvgPicture.asset(AppVectors.logo),
+                SizedBox(
+                  height: 55,
+                ),
                 Text(
                   "Enjoy listening to music",
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 26),
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 26,
+                  ),
                 )
               ],
             ),
