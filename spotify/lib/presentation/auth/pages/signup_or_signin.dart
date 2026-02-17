@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:spotify/common/helpers/is_dark_mode.dart';
+import 'package:spotify/common/widgets/appbar/app_bar.dart';
 import 'package:spotify/common/widgets/button/basic_app_button.dart';
 import 'package:spotify/core/configs/assets/app_images.dart';
 import 'package:spotify/core/configs/assets/app_vectors.dart';
@@ -14,6 +15,7 @@ class SignupOrSigninPage extends StatelessWidget {
     return Scaffold(
       body: Stack(
         children: [
+          const BasicAppbar(),
           Align(
             alignment: Alignment.topRight,
             child: SvgPicture.asset(AppVectors.topPattern),
@@ -36,20 +38,20 @@ class SignupOrSigninPage extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   SvgPicture.asset(AppVectors.logo),
-                  SizedBox(
+                  const SizedBox(
                     height: 55,
                   ),
-                  Text(
+                  const Text(
                     "Enjoy listening to music",
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 20,
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 21,
                   ),
-                  Text(
+                  const Text(
                     "spotify is a properietary  Swedish audio streaming and media sevicces provider",
                     style: TextStyle(
                         fontWeight: FontWeight.w500,
@@ -57,7 +59,7 @@ class SignupOrSigninPage extends StatelessWidget {
                         color: AppColors.grey),
                     textAlign: TextAlign.center,
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 30,
                   ),
                   Row(
@@ -69,7 +71,7 @@ class SignupOrSigninPage extends StatelessWidget {
                           title: "Register",
                         ),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         width: 20,
                       ),
                       Expanded(
