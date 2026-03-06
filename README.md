@@ -1,5 +1,6 @@
 # 🚀 Flutter Projects Repository
 
+
 A collection of **Flutter applications** built to practice and demonstrate mobile app development using modern tools, clean architecture, and state management techniques.
 
 ---
