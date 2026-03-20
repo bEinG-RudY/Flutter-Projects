@@ -5,7 +5,6 @@ A collection of **Flutter applications** built to practice and demonstrate mobil
 
 ---
 
-
 ## 🧩 Projects Included
 
 ### 🎵 Spotify Clone
