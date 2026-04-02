@@ -21,3 +21,14 @@ class SignupPage extends StatelessWidget {
     );
   }
 }
+
+Widget _registerText() {
+  return const Text(
+    "Register",
+    style: TextStyle(
+      fontSize: 25,
+      fontWeight: FontWeight.bold,
+    ),
+    textAlign: TextAlign.center,
+  );
+}
