@@ -45,6 +45,7 @@ Widget _fullNameField() {
         border: OutlineInputBorder(
           borderRadius: BorderRadius.all(Radius.circular(100)),
         )),
+        
     // labelText: "Full Name",
   );
 }
