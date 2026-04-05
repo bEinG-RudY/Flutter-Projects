@@ -18,7 +18,13 @@ class SignupPage extends StatelessWidget {
       body: Padding(
         padding: const EdgeInsets.symmetric(vertical: 50.0, horizontal: 30.0),
         child: Column(
-          children: [_registerText(), _fullNameField()],
+          children: [
+            _registerText(),
+            const SizedBox(
+              height: 10,
+            ),
+            _fullNameField()
+          ],
         ),
       ),
     );
@@ -45,7 +51,7 @@ Widget _fullNameField() {
         border: OutlineInputBorder(
           borderRadius: BorderRadius.all(Radius.circular(100)),
         )),
-        
+
     // labelText: "Full Name",
   );
 }
