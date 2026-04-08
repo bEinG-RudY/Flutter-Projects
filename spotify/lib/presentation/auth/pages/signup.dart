@@ -21,9 +21,9 @@ class SignupPage extends StatelessWidget {
           children: [
             _registerText(),
             const SizedBox(
-              height: 10,
+              height: 50,
             ),
-            _fullNameField()
+            _fullNameField(context)
           ],
         ),
       ),
@@ -42,16 +42,10 @@ Widget _registerText() {
   );
 }
 
-Widget _fullNameField() {
+Widget _fullNameField(BuildContext context) {
   return const TextField(
     decoration: InputDecoration(
-        filled: true,
-        fillColor: Colors.transparent,
-        contentPadding: EdgeInsets.all(30),
-        border: OutlineInputBorder(
-          borderRadius: BorderRadius.all(Radius.circular(100)),
-        )),
-
-    // labelText: "Full Name",
+      hintText: "Full Name",
+    ),
   );
 }
