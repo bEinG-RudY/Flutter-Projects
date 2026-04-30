@@ -12,6 +12,7 @@ A collection of **Flutter applications** built to practice and demonstrate mobil
 - Clean and scalable architecture  
 📂 Folder: `/spotify`
 
+
 ---
 
 ## 🛠️ Technologies Used
